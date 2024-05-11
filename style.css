@@ -1,0 +1,146 @@
+@media only screen and (max-width:768px) { nav ul li {
+    font-size: 14px;
+   }}
+   @media only screen and (min-width:1025px) {
+       nav ul li{ 
+           font-size: 18px;
+       }
+   }
+   @media only screen and (min-width:769) and (max-width:1024px){
+       nav ul li {
+           font-size: 16px;
+       }
+   }
+
+nav ul {
+    list-style-type: none;
+    margin: 0px; 
+    padding: 0;
+    border-radius: 5px ;
+    overflow: hidden; 
+    background-color: white; 
+    box-shadow: 0px 2px 10px grey;
+}
+
+nav ul li {
+    display: flex;
+    width: max-content; 
+}
+
+
+nav ul li a {
+    line-height: 50px;
+    display: flex-inline;
+    color: #57626b;
+    padding: 10px 15px; 
+    text-decoration: none;
+    font-family: "Inter", sans-serif;
+    font-size: 12px;
+}
+
+nav ul li a:hover {
+    color: #1a73e8; 
+}
+li {
+    float: left;
+}
+nav ul li:first-child a img {
+    width: 50px; 
+    height: auto; 
+}
+footer{   
+   width: 100%;
+    position: absolute; 
+    list-style-type: none;
+    float: left;
+    background: #f8f9fa;
+    font-family: "Inter", sans-serif;
+    color: #57626b;
+    bottom: 0;
+
+}
+
+
+footer ul{
+    list-style-type: none;
+    padding: 0;
+    border-radius: 5px ;
+    overflow: hidden; 
+    background-color: #f8f9fa; 
+}
+
+footer ul li a {
+    line-height: 10px;
+    display: flex-inline;
+    color: #57626b;
+    padding: 10px 15px; 
+    text-decoration: none;
+    font-family: "Inter", sans-serif;
+    font-size: 12px;
+    background: #f8f9fa;
+    text-align: center;  
+}
+.container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    margin: auto;
+    justify-content: space-between;
+}
+.columna-miniaturas {
+    display: flex;
+    image-rendering: auto;
+    margin: auto;
+    flex-direction: column;
+}
+.miniaturas {
+    border-radius: 50%;
+    border-color: black;
+    border:1px black solid;
+    height: 5%;
+    width: 5%;
+    margin-bottom: 1px;
+    margin-right: 150px;
+    margin-top: 60px;
+}
+.image-container {
+    display: flex; 
+    position:absolute;
+    margin: auto;
+    margin-left: 150px;
+    text-align:left;
+    padding-left:  150px;
+    image-rendering: auto;
+}
+#earbuds {
+    background: #f8f9fa;
+    max-width: 50%;
+    height: auto;
+    border-radius: 10px;
+    display: flex;
+    margin: 20px;
+    float: left;
+    position: relative;
+}
+.container-title {
+    font-family: "Inter", sans-serif;
+    align-items: left;
+    margin-right: 0.5px;
+}
+#container-title{
+    font-family: "Inter", sans-serif;
+    text-align: left;
+    margin-right: 10px;
+}
+.product-details{
+    font-family: "Inter", sans-serif;
+    color: #57626b;
+    margin: 20px 25px 0px;
+}
+
+
+h4 {
+    color:#57626b
+}
+
