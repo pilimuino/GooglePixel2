@@ -1,15 +1,12 @@
-@media only screen and (max-width:768px) { nav ul li {
-    font-size: 14px;
-   }}
-   @media only screen and (min-width:1025px) {
-       nav ul li{ 
-           font-size: 18px;
-       }
+@media only screen and (max-width:768px) { 
+ 
    }
-   @media only screen and (min-width:769) and (max-width:1024px){
-       nav ul li {
-           font-size: 16px;
-       }
+
+@media only screen and (min-width:1025px) {
+  
+}
+@media only screen and (min-width:769) and (max-width:1024px){
+  
    }
 
 nav ul {
@@ -20,7 +17,8 @@ nav ul {
     overflow: hidden; 
     background-color: white; 
     box-shadow: 0px 2px 10px grey;
-}
+    height: 70px
+} 
 
 nav ul li {
     display: flex;
@@ -29,7 +27,7 @@ nav ul li {
 
 
 nav ul li a {
-    line-height: 50px;
+    line-height: 60px;
     display: flex-inline;
     color: #57626b;
     padding: 10px 15px; 
@@ -46,7 +44,8 @@ li {
 }
 nav ul li:first-child a img {
     width: 50px; 
-    height: auto; 
+    height: auto;
+    margin-top: 5px; 
 }
 footer{   
    width: 100%;
@@ -78,7 +77,7 @@ footer ul li a {
     font-family: "Inter", sans-serif;
     font-size: 12px;
     background: #f8f9fa;
-    text-align: center;  
+    text-align: center; 
 }
 .container {
     width: 100%;
@@ -91,23 +90,24 @@ footer ul li a {
 .columna-miniaturas {
     display: flex;
     image-rendering: auto;
-    margin: auto;
+    margin:20px 800px 2px 100px;
     flex-direction: column;
+    padding: 50px 50px 50px 50px;
 }
 .miniaturas {
     border-radius: 50%;
     border-color: black;
     border:1px black solid;
-    height: 5%;
-    width: 5%;
-    margin-bottom: 1px;
-    margin-right: 150px;
-    margin-top: 60px;
+    height: 50px;
+    width: 50px;
+    margin-bottom: 20px;
+    margin-right: 0px;
+    margin-top: 20px;
 }
 .image-container {
     display: flex; 
     position:absolute;
-    margin: auto;
+    margin-top:0px;
     margin-left: 150px;
     text-align:left;
     padding-left:  150px;
@@ -120,13 +120,15 @@ footer ul li a {
     border-radius: 10px;
     display: flex;
     margin: 20px;
+    padding: 10px 5px 10px 5px;
     float: left;
-    position: relative;
+    position:relative;
 }
 .container-title {
     font-family: "Inter", sans-serif;
     align-items: left;
     margin-right: 0.5px;
+  
 }
 #container-title{
     font-family: "Inter", sans-serif;
@@ -141,6 +143,78 @@ footer ul li a {
 
 
 h4 {
-    color:#57626b
+    color:#57626b;
+}
+.Selectioncolor{
+    padding: 50px;
+    margin-bottom: 50px;
 }
 
+
+.circle{
+    display: inline-block;
+    border-radius: 50%;
+    padding:5%;
+
+}
+#celeste {
+    color:#e4eefd;
+    background-color: #e4eefd;
+    border: 1px solid#e4eefd;
+  
+
+}
+#porcelana {
+    background-color: #f5f1ec;
+    border: 1px solid #f5f1ec;
+    border-radius: 50%;
+    margin-bottom: 50px;
+}
+#carbon{
+    border: 1px solid #4d4c4d; 
+    background-color: #4d4c4d;
+}
+#gris-niebla{
+    border: 1px solid #dfe4ea;
+    background-color: #dfe4ea;
+}
+#verde-lima{
+    background-color: #eef3c1;
+    border: 1px solid #eef3c1;
+}
+#coral{
+    border: 1px solid #f08875;
+    background-color: #f08875;
+}
+.cesta-container{
+    background-color: #f8f9fa;
+    border-radius: 10px;
+    padding:20px 0px 20px;
+    margin:0px 0px 5Px;
+    height: 50%;
+    
+
+}
+#number{
+    margin:20px 10px;
+    padding:  10px 15px;
+    border-radius: 10px;
+    border: 1px solid #57626b;
+}
+#cesta{
+   padding:10px 100px ;
+  border:1px solid #1a73e8;
+  background-color: #1a73e8;
+  color: white;
+  border-radius: 10px;
+}
+
+
+.Delivers { 
+     font-family: "Inter", sans-serif;
+   color: #57626b;
+   font-size: 20px;
+   font-style: normal;
+
+   
+}
